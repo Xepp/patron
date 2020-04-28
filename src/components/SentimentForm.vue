@@ -1,19 +1,13 @@
 <template>
-  <b-card
-    class="sentiment-form shadow"
-  >
+  <b-card class="sentiment-form shadow">
     <v-icon
       v-if="loading"
       name="spinner"
       scale="3"
       pulse
     />
-    <template
-      v-else
-    >
-      <b-card-text
-        class="mt-3"
-      >
+    <template v-else>
+      <b-card-text class="mt-3">
         {{ content }}
       </b-card-text>
       <b-button-group
@@ -22,6 +16,7 @@
       >
         <b-button
           variant="outline-success"
+          :disabled="!id"
           @click="onSentimentClick('pos')"
         >
           <v-icon
@@ -31,6 +26,7 @@
         </b-button>
         <b-button
           variant="outline-secondary"
+          :disabled="!id"
           @click="onSentimentClick('neu')"
         >
           <v-icon
@@ -40,6 +36,7 @@
         </b-button>
         <b-button
           variant="outline-danger"
+          :disabled="!id"
           @click="onSentimentClick('neg')"
         >
           <v-icon

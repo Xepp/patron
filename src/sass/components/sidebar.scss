@@ -33,10 +33,12 @@
     border-radius: $border-radius-md;
     transition: $transition-default;
     &.router-link-exact-active{
-      background-color: $info;
+      background-color: $light;
+      color: $secondary;
     }
     &:hover{
       background-color: $dark;
+      color: $light;
     }
   }
 }

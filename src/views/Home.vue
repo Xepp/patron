@@ -1,15 +1,17 @@
 <template>
   <Layout>
-    <div
-      class="home"
-    >
+    <div class="home">
       <img
         alt="Patron logo"
         src="@/assets/logo.png"
       />
-      <h1> Patron </h1>
+      <h1>
+        Patron
+      </h1>
       <p>
-        <small> © 2020 Xepp, Inc. </small>
+        <small>
+          © 2020 Xepp, Inc.
+        </small>
       </p>
     </div>
   </Layout>

@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="panel-layout"
-  >
+  <div class="panel-layout">
     <Sidebar />
     <slot></slot>
   </div>

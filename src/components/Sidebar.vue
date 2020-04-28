@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="panel-sidebar"
-  >
+  <div class="panel-sidebar shadow">
     <router-link
       class="sidebar-logo"
       :to="{ name: 'Home' }"
@@ -15,7 +13,10 @@
       class="nav-item"
       :to="{ name: 'Sentiment' }"
     >
-      <b-icon-chat-dots />
+      <b-icon-chat-dots
+        v-b-tooltip.hover.left
+        title="Sentiment"
+      />
     </router-link>
   </div>
 </template>

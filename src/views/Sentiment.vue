@@ -1,8 +1,6 @@
 <template>
   <Layout>
-    <div
-      class="sentiment"
-    >
+    <div class="sentiment">
       <SentimentForm />
     </div>
   </Layout>
