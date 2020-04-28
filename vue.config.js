@@ -6,5 +6,8 @@ module.exports = {
         target: process.env.VUE_APP_API_SERVER
       }
     }
-  }
+  },
+  transpileDependencies: [
+    /\bvue-awesome\b/
+  ]
 }

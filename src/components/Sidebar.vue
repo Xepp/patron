@@ -4,7 +4,7 @@
   >
     <router-link
       class="sidebar-logo"
-      :to="{ name: 'home' }"
+      :to="{ name: 'Home' }"
     >
       <b-img
         src="@/assets/logo.png"
@@ -13,9 +13,9 @@
     </router-link>
     <router-link
       class="nav-item"
-      :to="{ name: 'sentiment' }"
+      :to="{ name: 'Sentiment' }"
     >
-      <b-icon-list />
+      <b-icon-chat-dots />
     </router-link>
   </div>
 </template>

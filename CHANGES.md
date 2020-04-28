@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Bootstrap vue
+- Vue awesome
 - Changefile
 - Service
-- Sentiment API
-- Sidebar
 - Sass
+- Sentiment
+- Sidebar
 - Layout
